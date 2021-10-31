@@ -22,6 +22,8 @@ import socket
 
 # TODO: Dynamically get absolute path from run location...
 #       or run in docker to not worry about it
+# TODO: Exceptions for invalid inputs
+
 FILE_LOCATION = "Engineering Test Files"
 OUTPUT_FILE = 'Combined.csv'
 OUTPUT_FIELDS = ['Source IP', 'Environment']

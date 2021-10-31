@@ -8,6 +8,8 @@ from combine_csvs import (
     OUTPUT_FILE
 )
 
+# TODO: Negative testing (once Exceptions are added)
+
 @pytest.mark.parametrize('test_input, expected',[
     # only keep csv files
     (['Asia Prod 1.csv', 'README.md', 'NA Prod.csv'], ['Asia Prod 1.csv', 'NA Prod.csv']),
